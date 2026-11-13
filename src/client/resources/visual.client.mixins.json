@@ -1,0 +1,15 @@
+{
+    "required":  true,
+    "package":  "com.visual.client.mixin",
+    "compatibilityLevel":  "JAVA_25",
+    "client":  [
+                   "ExampleClientMixin",
+                   "HealthLabelMixin"
+               ],
+    "injectors":  {
+                      "defaultRequire":  1
+                  },
+    "overwrites":  {
+                       "requireAnnotations":  true
+                   }
+}
